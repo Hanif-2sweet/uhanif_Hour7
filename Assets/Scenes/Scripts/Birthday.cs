@@ -11,33 +11,25 @@ public class Birthday : MonoBehaviour
     {
         //1
         int count = 1;
-      //  Debug.Log(count)
+          Debug.Log(count);
 
-        //2
-        int day = 1;
-     //   Debug.Log(day)
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        //1
-        int count = 1;
-       // while (count <= 12)
+       while (count < 12)
         {
-            if (count == 11) 
+            if (count == 11)
             {
                 Debug.Log("It's my birthday month!!!");
             }
-            else {count++;}
+            else { count++; }
         }
-      //  Debug.Log(count)
+          Debug.Log(count);
 
 
-
-        //2
+        //2nd Loop that output days of birthmonth
+        //on separate lines when birthday print "It's my birthday"
+        
         int day = 1;
-    //    while (day <= 30)
+           Debug.Log(day);
+            while (day <= 30)
         {
 
             if (day == 22)
@@ -47,15 +39,18 @@ public class Birthday : MonoBehaviour
             else { day++; }
 
         }
-     //   Debug.Log(day)
-
+        //   Debug.Log(day);
 
 
     }
 
 
 
+    // Update is called once per frame
+    void Update()
+    {
+     
+    }
 
-    //2nd Loop that output days of birthmonth
-    //on separate lines when birthday print "It's my birthday"
+
 }

@@ -9,23 +9,23 @@ public class MyCount : MonoBehaviour
     {
 
         int count = 22;
-        Debug.Log ("This is my count" + count);
-        
+        Debug.Log("This is my count" + count);
+        if (count < 100)
+        {
+            while (count < 100)
+            {
+                count = count + 2;
+                Debug.Log("This is my count" + count);
+            }
+
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
 
-        int count = 22;
-
-        while (count == 100)
-        {
-            count = count + 2;
-            Debug.Log("This is my count" + count);
-        }
-
-
+        
 
     }
 }
