@@ -24,24 +24,6 @@ public class Birthday : MonoBehaviour
           Debug.Log(count);
 
 
-        //2nd Loop that output days of birthmonth
-        //on separate lines when birthday print "It's my birthday"
-        
-        int day = 1;
-           Debug.Log(day);
-            while (day <= 30)
-        {
-
-            if (day == 22)
-            {
-                Debug.Log("It's my birthday!!!");
-            }
-            else { day++; }
-
-        }
-        //   Debug.Log(day);
-
-
     }
 
 
