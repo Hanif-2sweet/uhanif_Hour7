@@ -5,26 +5,39 @@ using UnityEngine;
 public class Birthday : MonoBehaviour
 {
     // Start is called before the first frame update
-    // Output month 1-12 seperate line & when birth month print
-    // "It's my birthday month"
+
     void Start()
     {
-        //1
-        int count = 1;
-          Debug.Log(count);
+    
+     //Output month 1-12 seperate line & when birth month print
+    // "It's my birthday month"
+    for (int month = 1; month <=12; month++){
 
-       while (count < 12)
-        {
-            if (count == 11)
+        if (month == 11)
             {
                 Debug.Log("It's my birthday month!!!");
             }
-            else { count++; }
-        }
-          Debug.Log(count);
+            else { Debug.Log(month); }
+    }
 
+//2nd output days 1-30 when birth day print
+         for (int days = 1; days <=30; days++){
+
+            if (days == 22){
+            Debug.Log("It's my birthday!!!" + days);}
+            else 
+            {
+            Debug.Log(days);}
+        }
+       
 
     }
+
+
+
+
+
+    
 
 
 
